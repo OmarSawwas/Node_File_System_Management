@@ -45,7 +45,7 @@ yarn dev-ts
    - newPath: required for rename function only.
    - content: required for addToFile function only.
 
-**_Note: _**
+**Note:**
 Order of inputs inside command.txt doesn't matter because regex matching is used to extract the value of each input!
 
 ## Contributing
