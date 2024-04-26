@@ -1,0 +1,4 @@
+action=ADD_TO_FILE
+oldPath=./text.txt
+newPath=./text1.txt
+content=Hello world omar sawwas i am here!
