@@ -161,7 +161,7 @@ const contentExtractor = (value: string) => {
     //   Defining the buffer
     const buffer = Buffer.alloc(size);
 
-    //   Specifying read properties here we need to define those to define the from where till where we need to read and mainly we need to read every time from the beginning defining the offset as 0.
+    //   Specifying read properties here we need to define those to read from the beginning till the end.
     const offset = 0;
     const length = buffer.byteLength;
     const position = 0;
