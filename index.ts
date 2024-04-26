@@ -49,7 +49,7 @@ const newPathExtractor = (value: string) => {
   return result;
 };
 const contentExtractor = (value: string) => {
-  // Matches "newPath=" followed by any characters except space and newline
+  // Matches "content=" followed by any characters except space and newline
   const content = /content=(.*)/;
   const match = value.match(content);
   let result = "";
